@@ -17,10 +17,16 @@
         <h2>公開中のツール/サービス</h2>
 
         <article class="tool-card">
-            <h3>ブックマークレット名</h3>
-            <p>このブックマークレットの説明を簡潔に書きます。（例：今開いているページの画像をまとめてダウンロードする）</p>
-            <a href="bookmarklet/tool1.html" class="button">使い方を見る/登録する</a>
-        </article>
+    <h3>ブックマークレット名</h3>
+    <p>このブックマークレットの説明を簡潔に書きます。（例：今開いているページの画像をまとめてダウンロードする）</p>
+
+    <select id="versionSelect">
+        <option value="bookmarklet/v1.html">Version 1.0 (安定版)</option>
+        <option value="bookmarklet/v2_beta.html">Version 2.0 (ベータ版)</option>
+    </select>
+
+    <a href="bookmarklet/v1.html" id="toolButton" class="button">使い方を見る/登録する</a>
+</article>
         
         <article class="tool-card">
             <h3>ウェブツールの名前</h3>
@@ -38,8 +44,10 @@
 
     <footer>
         <p>&copy; 2025 カカオマメ</p>
-        <p>製作者: カカオマメ (TwitterやGitHubのリンクをここに載せましょう)</p>
+        <p>製作者: カカオマメ (<a herf="https://github.com/kakaomames/">Github</a>)</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
