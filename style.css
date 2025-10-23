@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif; /* 見やすいフォントを設定 */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* 背景色 */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #ffe0b2; /* 温かい色 */
+}
+
+.tool-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px; /* 角を丸く */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を付けて立体的に */
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff9800; /* 目立つボタンの色 */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none; /* リンクの下線を消す */
+    border-radius: 4px;
+}
